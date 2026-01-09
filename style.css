@@ -36,7 +36,7 @@ html {
 }
 
 #header .logo {
-    color: #ff7a1a;
+    color: #002431;
     font-weight: 800;
     font-size: 2.5em;
     text-decoration: none;
@@ -60,14 +60,14 @@ html {
     text-decoration: none;
     /* To prevent Underline */
     padding: 6px 15px;
-    color: #0b5bd3;
+    color: #003549;
     border-radius: 20px;
 }
 
 #header ul li a:hover,
 #header ul li a.active {
-    background: #0b5bd3;
-    color: #fff6e5;
+    background: #003549;
+    color: white;
 }
 
 /* The Section Body... Set it to max size of screen */
@@ -88,7 +88,7 @@ section::before {
     left: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top, #3a66ff, transparent);
+    background: linear-gradient(to top, #085a7a, transparent);
     z-index: 10;
 }
 
@@ -113,7 +113,7 @@ section #text span {
 
 section #text {
     position: absolute;
-    color: #0b4db8;
+    color: #004660;
     font-size: 10vw;
     text-align: center;
     line-height: 0.55em;
@@ -128,8 +128,8 @@ section #text {
     text-decoration: none;
     /* To prevent Underline */
     padding: 8px 25px;
-    background: #fff6e5;
-    color: #0b5bd3;
+    background: white;
+    color: #003549;
     font-size: 1.3em;
     font-weight: bold;
     letter-spacing: 2px;
@@ -139,8 +139,8 @@ section #text {
 }
 
 #explore:hover {
-    background: #ff7a1a;
-    color: #fff6e5;
+    background: #003549;
+    color: white;
 }
 
 /* Propeties of Top button */
@@ -179,7 +179,7 @@ section #text {
 .sec {
     position: relative;
     padding: 10%;
-    background: linear-gradient(180deg, #3a66ff 0%, #1cb5e0 50%, #0f7bd6 100%);
+    background: #085a7a;
     padding-bottom: 15%;
     z-index: 50;
     overflow: hidden;
